@@ -1,0 +1,144 @@
+/* ====== UNIVERSAL CLASSES ====== */ 
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-color:#ffffff;
+    padding: 0px;
+    margin: 0px;
+    color: #777777;
+    background-image: url("../images/christmas-colour.png");
+}
+
+.ninesixty {
+    width: 960px;
+    margin: auto;
+    padding: 0;
+}
+
+/* ====== STICKY FOOTER WRAPPER / LAYOUT ====== */
+
+#footer-wrapper {
+    min-height: calc(100vh - 81px);
+    padding: 0;
+}
+#footer {
+    margin-top: 25px;
+    border-top:#FE5A5F 6px solid;
+    height: 50px;
+    background-color: #55595C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    position: relative;
+}
+.copyright {
+    position: absolute;
+    bottom: 5px;
+    text-align:center;
+    width: 100%;
+}
+
+/* ====== FOOTER-WRAPPER > HEADER ====== */
+
+#header {
+    background-color: #CED0CB;
+    padding: 0px;
+    margin-bottom: 25px;
+    width: 100%;
+    border-bottom: #FE5A5F 2px solid;
+}
+#sitename {
+    background-color: #007A87;
+    display:inline-block;
+    font-size: 25px;
+    padding: 30px;
+    margin: 0px;
+    color: #ffffff;
+}
+#nav {
+    float: right;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 35px 0px 34px 0px;
+    color: #d5d5d5;
+}
+#nav a {
+    color: #888888;
+    text-decoration: none;
+}
+
+/* ====== FOOTER-WRAPPER > PAGE CONTENT ====== */
+
+#content {
+    width: 908px;
+    margin: auto;
+    background-color:#ffffff;
+    padding: 25px;
+    overflow: auto;
+    border: #007A87 1px solid;
+}
+#content img.headshot {
+    float: left;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+#content p {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+h1 {
+    margin-top: 0px;
+    padding-bottom: 20px;
+    border-bottom:#CCCCCC 3px solid;
+    color: #007A87;
+}
+
+/* ====== FOOTER-WRAPPER > PAGE CONTENT > FORM ====== */
+
+.textfield {
+    width: 50%;
+    border: #cccccc 1px solid;
+    padding: 10px;
+}
+textarea {
+    width: calc(100% - 20px);
+    display: block;
+    border: #cccccc 1px solid;
+    padding: 10px;
+    height: 5em;
+}
+input[type=submit]{
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+/* ====== FOOTER-WRAPPER > PAGE CONTENT > PORTFOLIO ====== */
+
+.project-tile {
+    width: 380px;
+    height: 280px;
+    background-color: #FE5A5F;
+    margin: 0px 20px 20px 0px;
+    float: left;
+    position: relative;
+    background-image: url(https://picsum.photos/380/280?random);
+}
+#content .project-tile p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FE5A5F;
+    color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
